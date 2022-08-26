@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  font-size: 40px;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.key {
+  background-color: rgba(122, 143, 68, 0.668);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 500px;
+  height: 500px;
+}
+#display {
+  border: 2px solid black;
+  width: 496px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  height: 150px;
+  width: 150px;
+  border-collapse: collapse;
+  font-weight: bold;
+  font-size: x-large;
+}
