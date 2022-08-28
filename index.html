@@ -7,52 +7,29 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div id="display"></div>
-    <div class="container">
-      <button id="num" class="key">0</button>
-      <button id="num" class="key">1</button>
-      <button id="num" class="key">2</button>
-      <button id="num" class="key">3</button>
-      <button id="num" class="key">4</button>
-      <button id="num" class="key">5</button>
-      <button id="num" class="key">6</button>
-      <button id="num" class="key">7</button>
-      <button id="num" class="key">8</button>
-      <button id="num" class="key">9</button>
-      <button id="sign" class="key">+</button>
-      <button id="sign" class="key">-</button>
-      <button id="sign" class="key">*</button>
-      <button id="sign" class="key">/</button>
-      <button id="sign" class="key">=</button>
-      <button id="sign" class="key">C</button>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete>DEL</button>
+      <button data-operation>/</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>+</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>-</button>
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="span-two">=</button>
     </div>
-
-    <table border="1">
-      <th>111</th>
-      <tr>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>/</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>*</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>0</td>
-        <td>C</td>
-        <td>+</td>
-        <td>=</td>
-      </tr>
-    </table>
   </body>
 </html>
